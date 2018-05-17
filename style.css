@@ -68,17 +68,15 @@ body {
 }
 
 .gallery-v2 img {
-    width: 50%;
+    width: 25%;
     display: inline-flex;
-    justify-content: space-around;
     margin-right: -3px; /* celowo 1px zostawiłem*/
-    transition: .2s;
+    transition: .3s;
 }
 
 .gallery-v2 img:hover {
-    border-right: solid 3px #f19066;
-    border-bottom: solid 3px #f19066;
-
-}
+    border-right: solid 0.5vh transparent;
+    border-left: solid 0.5vh transparent;
+   }
 
 
