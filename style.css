@@ -33,16 +33,14 @@ body {
 .jumbotron button {
     background-color: #4577ED;
     border: solid 5px transparent;
-    border-radius: 10px;
+    border-radius: 50px;
     display: block;
     font-size: 18px;
-    justify-content: center;
     line-height: 18px;
     margin: 2vh auto;
     max-width: 60%;
     padding: 0.5% 3%;
     transition: .3s;
-
 }
 
 .jumbotron button:hover {
