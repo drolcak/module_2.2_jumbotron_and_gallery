@@ -32,7 +32,7 @@ body {
 
 .jumbotron button {
     background-color: #4577ED;
-    border: solid 5px transparent;
+    border: solid 2px transparent;
     border-radius: 10px;
     display: block;
     font-size: 18px;
@@ -41,21 +41,20 @@ body {
     margin: 2vh auto;
     max-width: 60%;
     padding: 0.5% 3%;
-    transition: .3s;
-
 }
 
 .jumbotron button:hover {
-    border: solid 5px #ffffff;
+    border: solid 2px #ffffff;
     cursor: pointer;
     color: #ffffff;
+    transition: color .2s ease-in, border .2s ease-out;
 }
 
 .gallery img {
     width: 25%;
     display: block;
     float: left;
-    }
+}
 
 .gallery img:hover, .gallery-v2 img:hover {
     opacity: 0.8;
@@ -70,13 +69,13 @@ body {
 .gallery-v2 img {
     width: 25%;
     display: inline-flex;
-    margin-right: -3px; /* celowo 1px zostawiłem*/
-    transition: .3s;
+    margin-right: -3px; /* celowo 1px zostawiłem */
+    transition: all .3s ease-in;
 }
 
 .gallery-v2 img:hover {
     border-right: solid 0.5vh transparent;
     border-left: solid 0.5vh transparent;
-   }
+}
 
 
